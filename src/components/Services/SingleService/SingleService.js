@@ -1,5 +1,5 @@
 import React,{useContext} from 'react';
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 
 import { ThemeContext } from '../../../contexts/ThemeContext';
 
@@ -10,7 +10,7 @@ function SingleService({id, title, icon}) {
 
     const { theme } = useContext(ThemeContext);
     return (
-        <Fade bottom>
+        <Fade direction="up">
             <div key={id} className="single-service" style={{backgroundColor:theme.primary400}}>
                 <div className="service-content"  style={{color:theme.tertiary}}>
                     <i className="service-icon">{icon}</i>
