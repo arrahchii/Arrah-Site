@@ -1,6 +1,6 @@
 import React, { useContext } from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Fade } from 'react-awesome-reveal';
+import Fade from 'react-reveal/Fade';
 
 import { ThemeContext } from '../../contexts/ThemeContext';
 
@@ -24,7 +24,7 @@ function EducationCard({ id, institution, course, startYear, endYear }) {
     const classes = useStyles();
 
     return (
-        <Fade direction="up">
+        <Fade bottom>
             <div key={id} className={`education-card ${classes.educationCard}`} >
                 <div className="educard-img" style={{backgroundColor: theme.primary}}>
                     <img src={theme.type === 'light' ? eduImgBlack : eduImgWhite} alt="" />
