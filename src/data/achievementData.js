@@ -7,7 +7,7 @@ export const achievementData = {
             details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
             date : 'Aug 20, 2019',
             field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1573141597928-403fcee0e056?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80'
+            image : `${process.env.PUBLIC_URL}/Achievement1.jpg`
         },
         {
             id : 2,
@@ -15,7 +15,7 @@ export const achievementData = {
             details : 'Validate technical skills and cloud expertise to grow your career and business.',
             date : 'Aug 20, 2019',
             field : 'Automation',
-            image : 'https://images.unsplash.com/photo-1523474253046-8cd2748b5fd2?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
+            image : `${process.env.PUBLIC_URL}/Achievement2.jpg`
         },
         {
             id : 3,
