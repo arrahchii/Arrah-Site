@@ -1,28 +1,28 @@
 export const achievementData = {
-    bio : "Putting quantified achievements on a resume is great, but I just don’t work with hard numbers. I have no data to support the quality of my work. If you have lots of relevant experience, the heading statement of your resume will be a summary.",
+    bio : "A few highlights from my education and professional experience.",
     achievements : [
         {
             id : 1,
-            title : 'Google Cloud certification',
-            details : 'Google Cloud certifications validate your expertise and showcase your ability to transform businesses with Google Cloud technology.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
+            title : 'Property Tax Reduction Services as SDR',
+            details : 'I worked as a Sales Development Representative for a property tax reduction company (2024-2025). I reached out to homeowners, qualified leads, and kept client information organized. It made me better at following up and explaining things in a simple, friendly way.',
+            date : '2024-2025',
+            field : 'Sales Development',
             image : `${process.env.PUBLIC_URL}/Achievement1.jpg`
         },
         {
             id : 2,
-            title : 'AWS Certification',
-            details : 'Validate technical skills and cloud expertise to grow your career and business.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
+            title : 'College Diploma',
+            details : 'I graduated with a Bachelor of Science in Information Technology from Goldenstate College (2018-2023) while working in customer service. It taught me to manage my time, and it helps me pick up new tools and platforms quickly.',
+            date : '2018-2023',
+            field : 'Education',
             image : `${process.env.PUBLIC_URL}/Achievement2.jpg`
         },
         {
             id : 3,
-            title : 'Professional Data Engineer Certification',
-            details : 'Professional Data Engineers enable data-driven decision making by collecting, transforming, and publishing data.',
-            date : 'Aug 20, 2019',
-            field : 'Automation',
+            title : 'SEO Copywriter',
+            details : 'I worked as an SEO copywriter, writing clear, easy-to-read articles and web copy that are built to be found on Google. I researched keywords, kept the tone natural, and used WordPress to publish content. I now use these skills when writing captions and posts for my clients.',
+            date : '',
+            field : 'Copywriting',
             image : 'https://images.unsplash.com/photo-1489389944381-3471b5b30f04?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80'
         }
 
