@@ -2,7 +2,7 @@
 import { BiShoppingBag, BiPencil } from "react-icons/bi";
 import { BsCodeSlash, BsClipboardData } from "react-icons/bs";
 import { AiOutlineMail, AiFillAudio } from "react-icons/ai";
-import { FaInternetExplorer,  FaChalkboardTeacher, FaCameraRetro, FaPinterest, FaVideo, FaTabletAlt, FaRegNewspaper } from "react-icons/fa";
+import { FaInternetExplorer,  FaChalkboardTeacher, FaPinterest, FaShareAlt, FaTabletAlt, FaRegNewspaper, FaUserTie } from "react-icons/fa";
 
  
 
@@ -41,7 +41,7 @@ export const servicesData = [
     {
         id: 7,
         title: 'Social Media Managing',
-        icon: <FaCameraRetro />
+        icon: <FaShareAlt />
     },
     // {
     //     id: 8,
@@ -51,7 +51,7 @@ export const servicesData = [
     {
         id: 9,
         title: 'Executive Assistant',
-        icon: <FaVideo />
+        icon: <FaUserTie />
     },
     // {
     //     id: 10,
