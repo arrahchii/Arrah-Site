@@ -40,7 +40,7 @@ export const servicesData = [
     },
     {
         id: 7,
-        title: 'Photography',
+        title: 'Social Media Managing',
         icon: <FaCameraRetro />
     },
     // {
@@ -50,7 +50,7 @@ export const servicesData = [
     // }, 
     {
         id: 9,
-        title: 'Video Editing',
+        title: 'Executive Assistant',
         icon: <FaVideo />
     },
     // {
