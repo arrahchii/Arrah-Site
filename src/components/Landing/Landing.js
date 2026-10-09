@@ -167,7 +167,7 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
+                                    download='Dane-Candelario-Resume-and-Cover-Letter.docx'
                                     target='_blank'
                                     rel='noreferrer'
                                 >

@@ -1,4 +1,4 @@
-import resume from '../assets/pdf/resume.pdf'
+import resume from '../assets/pdf/Dane-Candelario-Resume-and-Cover-Letter.docx'
 
 export const headerData = {
     name: 'Dane Arrah Candelario',
